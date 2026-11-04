@@ -1,14 +1,12 @@
-<img src="readme-banner.png" alt="OpenProperty preview" width="100%" />
+<img src="readme-banner.png" alt="Keyring preview" width="100%" />
 
-# OpenProperty
-
-[![Deploy with Clawnify](https://app.clawnify.com/deploy-button.svg)](https://app.clawnify.com/deploy?repo=clawnify/OpenProperty)
+# Keyring
 
 Open-source **property management software** — a self-hosted, cloud-based alternative to TenantCloud, AppFolio, Buildium, and Propertyware for landlords, small property managers, and apartment / multi-family back-office teams.
 
 Rental property management with everything you need to run a portfolio: properties and units, tenants and leases, rent collection and a ledger, maintenance work orders, and a vendor directory.
 
-> Built on the [Clawnify](https://clawnify.com) template format. Deploy your own copy in minutes, customize freely, own the data.
+> Built on the Clawnify template format. Deploy your own copy in minutes, customize freely, own the data.
 
 ## Features
 
@@ -73,7 +71,7 @@ If you have the Clawnify CLI installed:
 clawnify deploy
 ```
 
-Or wire it up to Cloudflare Workers + D1 directly using the bindings in `wrangler.toml` (binding `DB`, database name `open-property-db`).
+Or wire it up to Cloudflare Workers + D1 directly using the bindings in `wrangler.toml` (binding `DB`, database name `keyring-db`).
 
 ## Project layout
 
